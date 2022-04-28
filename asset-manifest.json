@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/applewebsite/static/css/main.15788d76.css",
+    "main.js": "/applewebsite/static/js/main.57d50912.js",
+    "static/media/IphoneSE.png": "/applewebsite/static/media/IphoneSE.787e7d37183996678378.png",
+    "static/media/cybogPic.jpg": "/applewebsite/static/media/cybogPic.1efb9e09452c933ee89c.jpg",
+    "static/media/btsPic.jpg": "/applewebsite/static/media/btsPic.d987409c8f187ffbdad4.jpg",
+    "static/media/ipadlarge.jpg": "/applewebsite/static/media/ipadlarge.c790a8bebf35541b5831.jpg",
+    "static/media/aplewatch2.jpg": "/applewebsite/static/media/aplewatch2.23c6082d01cd501e06ff.jpg",
+    "static/media/mothersday.jpg": "/applewebsite/static/media/mothersday.7b4648e4b8a367c5e7ee.jpg",
+    "static/media/iphoneHero2x.jpg": "/applewebsite/static/media/iphoneHero2x.48d11793a01365bbeb52.jpg",
+    "static/media/maclarge.jpg": "/applewebsite/static/media/maclarge.0dd86497145bb83176e8.jpg",
+    "static/media/ipadsmall.jpg": "/applewebsite/static/media/ipadsmall.acc92870071150d16a23.jpg",
+    "static/media/wwdcpic.jpg": "/applewebsite/static/media/wwdcpic.79b9837d42fda290d1af.jpg",
+    "static/media/theycallmemagic.png": "/applewebsite/static/media/theycallmemagic.3724f2dd28f3b440c7ac.png",
+    "static/media/logoAir.png": "/applewebsite/static/media/logoAir.b029ff38726bc7644802.png",
+    "index.html": "/applewebsite/index.html",
+    "main.15788d76.css.map": "/applewebsite/static/css/main.15788d76.css.map",
+    "main.57d50912.js.map": "/applewebsite/static/js/main.57d50912.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15788d76.css",
+    "static/js/main.57d50912.js"
+  ]
+}
