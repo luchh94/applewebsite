@@ -5,6 +5,8 @@ import IphoneSE from "./components/IphoneSE";
 import Navbar from "./components/Navbar";
 import Unicef from "./components/Unicef";
 import Information from "./components/Information";
+import Outro from "./components/Outro";
+import Impressum from "./components/Impressum";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Ipad />
       <GridPart />
       <Information />
+      <Outro />
+      <Impressum />
     </>
   );
 }
