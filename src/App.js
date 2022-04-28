@@ -1,3 +1,4 @@
+import GridPart from "./components/GridPart";
 import Ipad from "./components/Ipad";
 import Iphone13 from "./components/Iphone13";
 import IphoneSE from "./components/IphoneSE";
@@ -12,6 +13,7 @@ function App() {
       <Iphone13 />
       <IphoneSE />
       <Ipad />
+      <GridPart />
     </>
   );
 }

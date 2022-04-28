@@ -5,7 +5,7 @@ import AppleLogo from "../assets/appleImages/appleLogo.png";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#2f2f32] w-full h-[48px] text-white">
+    <div className="bg-[#2f2f32] w-[100%] h-[48px] mx-0 text-white">
       <div className="flex md:hidden w-full h-[48px] justify-between px-2">
         <div className="flex justify-center items-center">
           <FaBars className="w-[20px] h-auto" />
