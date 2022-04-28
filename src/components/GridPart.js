@@ -61,7 +61,7 @@ const GridPart = () => {
       <div className="w-full h-[500px] relative flex justify-start  flex-col">
         <div className="w-full h-[150px] m-0 flex flex-col   text-center pt-10">
           <img className="z-10 h-[75px]" src={appleWatchText} alt="appleWatch" />
-          <p className="w-full z-10 h-15">A sight to be bold.</p>
+          <p className="w-full z-10 h-15">It's our largest display yet.</p>
           <div className="z-10  flex w-[200px] justify-between m-auto">
             <a href="/" className=" text-blue-500 tracking-wide cursor-pointer hover:underline">
               {"Learn More  >"}
