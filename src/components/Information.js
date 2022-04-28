@@ -2,9 +2,9 @@ import React from "react";
 
 const Information = () => {
   return (
-    <div className="max-w-[2560px] h-full bg-[#fbfbfb]">
+    <div className="max-w-[2560px] h-full bg-[#fbfbfb] border-b-2">
       <div className="max-w-[1000px] h-full items-center justify-around md:justify-center m-auto text-left flex flex-col md:flex-row">
-        <div className="flex flex-col md:h-full w-full items-center justify-center text-left py-10">
+        <div className="flex flex-col md:h-full w-full items-center justify-center text-left py-10 px-10">
           <p className="text-[12px] font-extralight w-full py-1">
             1. Apple Watch required. New subscribers only. $9.99/month after
             trial. Plan automatically renews until cancelled.

@@ -14,10 +14,10 @@ const Ipad = () => {
           ></p>
           <p className="z-20 text-white h-15 text-center">Light. Bright. Full of might.</p>
           <div className="z-20 flex w-[200px] justify-between pt-4 m-0">
-            <a className="z-20 text-blue-500 tracking-wide cursor-pointer hover:underline">
+            <a href="/" className="z-20 text-blue-500 tracking-wide cursor-pointer hover:underline">
               {"Learn More  >"}
             </a>
-            <a className="z-20 text-blue-500 tracking-wide cursor-pointer hover:underline">{`Buy   >`}</a>
+            <a href="/" className="z-20 text-blue-500 tracking-wide cursor-pointer hover:underline">{`Buy   >`}</a>
           </div>
         </div>
 

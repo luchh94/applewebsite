@@ -13,10 +13,10 @@ const IphoneSE = () => {
         </p>
         <p className="z-20 h-15">Oh.So.Pro.</p>
         <div className="z-20 flex w-[200px] justify-between pt-4 m-0">
-          <a className="z-20 text-blue-500 tracking-wide cursor-pointer hover:underline">
+          <a href="/" className="z-20 text-blue-500 tracking-wide cursor-pointer hover:underline">
             {"Learn More  >"}
           </a>
-          <a className="z-20 text-blue-500 tracking-wide cursor-pointer hover:underline">{`Buy   >`}</a>
+          <a href="/" className="z-20 text-blue-500 tracking-wide cursor-pointer hover:underline">{`Buy   >`}</a>
         </div>
         <figure style={{ backgroundImage: `url(${IphoneSe})` }} className="w-full h-full absolute bottom-0 bg-cover bg-center" ></figure>
       </div>
