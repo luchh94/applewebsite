@@ -32,7 +32,29 @@ const Navbar = () => {
           <AiOutlineShopping className="w-[25px] h-auto cursor-pointer" />
         </div>
       </div>
-      <div className={open ? `w-full h-full bg-black z-50 absolute md:hidden` : `hidden`}>
+      <div
+        className={
+          open ? `w-full h-full bg-black z-50 fixed top-0 md:hidden` : `hidden`
+        }
+      >
+        <div className="flex md:hidden w-full h-[48px] justify-between px-5">
+          <div className="flex justify-center items-center m-0">
+            <FaBars
+              onClick={() => {
+                setOpen(!open);
+              }}
+              className="w-[20px] h-auto"
+            />
+          </div>
+
+          <div className="flex justify-center items-center cursor-pointer">
+            <img src={AppleLogo} className="w-[30px] h-auto" alt="apple logo" />
+          </div>
+
+          <div className="flex justify-center items-center m-0">
+            <AiOutlineShopping className="w-[25px] h-auto cursor-pointer" />
+          </div>
+        </div>
         <div>
           <form className="flex justify-center border-b-[0.5px] border-[#ffffff79] pb-4">
             <input
@@ -81,7 +103,11 @@ const Navbar = () => {
         <ul className="flex w-full justify-between items-center">
           <li>
             {" "}
-            <img src={AppleLogo} className="w-[30px] h-auto cursor-pointer" alt="applelogo" />
+            <img
+              src={AppleLogo}
+              className="w-[30px] h-auto cursor-pointer"
+              alt="applelogo"
+            />
           </li>
           <li className="font-light text-[10px] cursor-pointer text-white/60 hover:text-white/100 duration-300">
             Store
